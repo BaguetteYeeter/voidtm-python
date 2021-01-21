@@ -276,7 +276,7 @@ while run:
             keyPressed -= 1
     elif keys[pygame.K_SPACE]:
         if keyPressed == 0:
-            cells[cursorCell] -= 1
+            cells[cursorCell] = 0
             cursorCell += 1
             keyPressed = 2
         else:
